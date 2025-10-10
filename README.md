@@ -1,1 +1,1 @@
-#sports chatbot using pathway
+This is a sports chatbot that we have created with the help of pathway. Pathway allows real-time ingestion of data. We scraped data from online websites and used and used it to as context. Used rag for real time ingestion.
