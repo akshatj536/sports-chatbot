@@ -13,7 +13,7 @@ qa_pipeline = pipeline("text2text-generation", model="google/flan-t5-base")
 # Initialize Vector Store
 vector_store = VectorStore(dimension=384)  # Already handles loading index + documents
 
-# Load static data for BM25 search
+# Load static data for BM25 search\\
 with open("mock_data/mock_football_data.json", "r") as f:
     static_documents = json.load(f)
 
